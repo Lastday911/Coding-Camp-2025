@@ -1,0 +1,58 @@
+.event-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+.home-container {
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.card-snap {
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: start;
+  scroll-padding: 1rem;
+  scroll-snap-stop: always;
+}
+
+.event-card {
+  scroll-snap-align: center;
+}
+
+@media (min-width: 768px) {
+  .event-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-snap {
+    scroll-snap-type: none;
+    scroll-padding: 0;
+    scroll-snap-stop: normal;
+  }
+
+  app-event-card {
+    flex: 0 1 calc(50% - 1rem);
+    max-width: 500px;
+    height: 320px;
+  }
+}
+
+@media (min-width: 1024px) {
+  app-event-card {
+    flex: 0 1 calc(25% - 1rem);
+    max-width: 350px;
+    height: 320px;
+  }
+}

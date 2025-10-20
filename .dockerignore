@@ -1,0 +1,18 @@
+# Node/Angular
+node_modules
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.angular
+.dist
+dist
+
+# VCS/IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# Misc
+Dockerfile
+docs/

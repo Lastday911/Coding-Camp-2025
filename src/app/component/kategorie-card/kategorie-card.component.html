@@ -1,0 +1,18 @@
+<div
+  class="flex aspect-[4/3] items-center justify-center rounded-lg text-center shadow-xl transition-transform duration-300 hover:scale-105"
+  [ngStyle]="{ 'background-color': color }"
+>
+  <a
+    [routerLink]="['/kategorie']"
+    [queryParams]="{ id: id.id, name: text }"
+    class="flex h-full w-full cursor-pointer items-center justify-center"
+  >
+    <div class="align-middle">
+      <p
+        class="items-center justify-center transition-transform duration-300 hover:scale-105"
+      >
+        {{ text }}
+      </p>
+    </div>
+  </a>
+</div>

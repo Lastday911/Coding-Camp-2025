@@ -1,0 +1,29 @@
+<div class="relative">
+  <button
+    type="button"
+    (click)="sharePage()"
+    class="group rounded-full bg-blue-200 p-3 transition hover:bg-blue-300 focus:ring-2 focus:ring-blue-400 focus:outline-none active:ring-blue-600"
+    aria-label="{{ 'SHARE.SHARE' | translate }}"
+  >
+    <div
+      class="relative flex h-[26px] w-[26px] items-center justify-center rounded-full"
+      aria-hidden="true"
+    >
+      <p>{{ '📤' }}</p>
+    </div>
+  </button>
+  <p class="mt-1 text-sm font-bold text-center">
+    {{ 'SHARE.SHARE' | translate }}
+  </p>
+
+  <!-- Benachrichtigung für Benutzer, wenn Link kopiert wurde -->
+  @if (showCopyMessage) {
+    <div
+      class="animate-fade-in-out fixed top-2/3 left-1/2 z-50 -translate-x-1/2 transform rounded-lg bg-green-600 p-4 text-sm text-white shadow-lg"
+      role="alert"
+      aria-live="assertive"
+    >
+      ✅ {{ 'share.copy-notification' | translate }}
+    </div>
+  }
+</div>

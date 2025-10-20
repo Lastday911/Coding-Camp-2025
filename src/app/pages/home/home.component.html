@@ -1,0 +1,73 @@
+<article>
+  <h1 class="sr-only">
+    {{ 'home.title' | translate }}
+  </h1>
+  <!-- Skip-Link für Screenreader -->
+  <a
+    href="#main-content"
+    class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-white focus:p-2"
+    >{{ 'home.main-content' | translate }}
+  </a>
+
+  <!-- Debug-Info -->
+  <div
+    *ngIf="displayEvents.length === 0"
+    class="mb-4 rounded bg-yellow-100 p-4"
+  >
+    Lade Events... ({{ events.length }} Events verfügbar)
+  </div>
+
+  <!-- Aktuelle Events -->
+  <section
+    [attr.aria-labelledby]="'home.tags.aria-lable-event-heading' | translate"
+  >
+    <h2 [id]="'home.tags.aria-lable-event-heading' | translate">
+      {{ 'home.current' | translate }}
+    </h2>
+
+    <!-- Horizontaler Scroll-Container für Events -->
+    <div
+      class="scrollbar-hide card-snap -mx-2 mb-5 w-full snap-x snap-mandatory overflow-x-auto scroll-smooth pb-4"
+    >
+      <div class="event-row flex min-w-max gap-4 px-2 pb-8">
+        @for (event of displayEvents; track $index) {
+          <app-event-card
+            class="h-full w-[calc(100vw-6rem)] snap-center"
+            [event]="event.isMore ? null : event"
+            [isMoreCard]="!!event.isMore"
+            [attr.aria-label]="
+              event.name
+                ? 'Veranstaltung: ' +
+                  event.name +
+                  ' am ' +
+                  (event.date_start | date: 'dd.MM.yyyy')
+                : 'Mehr Veranstaltungen anzeigen'
+            "
+          ></app-event-card>
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Kategorien -->
+  <section
+    [attr.aria-labelledby]="
+      'home.tags.aria-lable-catagories-heading' | translate
+    "
+  >
+    <h2 [id]="'home.tags.aria-lable-catagories-heading' | translate">
+      {{ 'home.categories' | translate }}
+    </h2>
+
+    <div class="grid grid-cols-3 gap-4 lg:grid-cols-4">
+      @for (kategorie of topicsOrTypes; track kategorie.id) {
+        <app-kategorie-card
+          [color]="typeof kategorie.color === 'string' && kategorie.color ? kategorie.color : '#ccc'"
+          [text]="kategorie.name"
+          [id]="kategorie.id!"
+        >
+        </app-kategorie-card>
+      }
+    </div>
+  </section>
+</article>

@@ -1,0 +1,198 @@
+{
+  "COMMON": {
+    "SAVE": "Enregistrer",
+    "CANCEL": "Annuler",
+    "BACK": "Retour",
+    "NEXT": "Suivant",
+    "SKIP_TO_MAIN": "Passer au contenu principal"
+  },
+  "HEADER": {
+    "TITLE": "1200 Ans de Radolfzell",
+    "HOME": "Accueil",
+    "EVENTS": "Événements",
+    "ABOUT": "À propos"
+  },
+  "HOME": {
+    "WELCOME": "Bienvenue à 1200 Ans de Radolfzell",
+    "INTRO": "Découvrez l'histoire et les événements autour de l'anniversaire"
+  },
+  "EVENTS": {
+    "TITLE": "Événements",
+    "NO_EVENTS": "Aucun événement trouvé",
+    "LOCATION": "Lieu",
+    "DATE": "Date",
+    "SAVE_EVENT": "Enregistrer l'événement",
+    "REMOVE_EVENT": "Supprimer l'événement",
+    "PAST_EVENT": "Événement passé",
+    "NO_EVENTS_FOUND_IN_CATEGORY": "Aucun événement trouvé dans cette catégorie."
+  },
+  "ABOUT": {
+    "TITLE": "À propos de nous",
+    "CONTENT": "La ville de Radolfzell sur le lac de Constance célèbre son 1200e anniversaire"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© 2025 Ville de Radolfzell",
+    "IMPRINT": "Mentions légales",
+    "PRIVACY": "Politique de confidentialité"
+  },
+  "bottom-nav": {
+    "home": "Accueil",
+    "favorites": "Favoris",
+    "search": "Recherche",
+    "more": "Plus"
+  },
+  "MORE": {
+    "TEAM": {
+      "TITLE": "L'équipe",
+      "DESCRIPTION": "Découvrez l'équipe derrière l'application 1200 Ans de Radolfzell."
+    },
+    "IMPRINT": {
+      "TITLE": "Mentions légales",
+      "DESCRIPTION": "Informations légales et coordonnées."
+    },
+    "PRIVACY": {
+      "TITLE": "Politique de confidentialité",
+      "DESCRIPTION": "Informations sur la protection des données et le traitement des données."
+    },
+    "LOGIN": {
+      "TITLE": "Connexion",
+      "DESCRIPTION": "Gestion interne des données des entrées."
+    },
+    "ARIA-LABLE": "Autres options"
+  },
+  "home": {
+    "current": "Événements actuels",
+    "categories": "Catégories",
+    "main-content": "Aller au contenu principal",
+    "tags": {
+      "aria-lable-event-heading": "events-heading",
+      "aria-lable-catagories-heading": "categories-heading"
+    },
+    "title": "1200 ans de Radolfzell"
+  },
+  "i18y": {
+    "to-main-content": "Accéder au contenu principal"
+  },
+  "footer": {
+    "datenschutz": "Mentions légales",
+    "impressum": "Politique de confidentialité",
+    "sponsoring": "Développé"
+  },
+  "create-event": {
+    "eventname": "Nom de l'événement:",
+    "organizer": "Choisir l'organisateur...",
+    "neworganizer": "Créer un nouvel organisateur",
+    "neworganizername": "Nom",
+    "neworganizerphone": "Numéro de téléphone",
+    "neworganizermail": "Courrier électronique",
+    "startdate": "Date de début",
+    "starttime": "Heure de début",
+    "enddate": "Date de fin",
+    "endtime": "Heure de fin",
+    "timespan": "Période",
+    "location": "Choisir un lieu...",
+    "newlocation": "Créer un nouveau lieu",
+    "newlocationname": "Nom de la localité",
+    "newlocationaddress": "Adresse",
+    "newlocationplz": "Code postal",
+    "newlocationcity": "Ville",
+    "age": "Âge minimum",
+    "price": "Prix (€)",
+    "restrictions": "Restrictions",
+    "restrictionsexample": "p. ex. escaliers",
+    "topics": "Thèmes de l'événement",
+    "eventtype": "Type d'événement",
+    "moreinfo": "Plus d'infos",
+    "moreinfoexample": "https://...",
+    "createevent": "Créer un événement",
+    "newlocationnameexample": "Nom de la localité",
+    "newlocationaddressexample": "Rue et numéro",
+    "ageexample": "p. ex. 18",
+    "description": "Description de l'événement",
+    "hint": "Les champs marqués d'un * sont obligatoires.",
+    "updateevent": "Mettre à jour l'événement",
+    "error": {
+      "name": "Veuillez entrer un nom d'événement.",
+      "date": "Veuillez entrer une date de début.",
+      "time": "Veuillez entrer une heure de début.",
+      "general": "Veuillez remplir tous les champs obligatoires."
+    }
+  },
+  "dev": {
+    "text1": "Ce site web a été développé dans le cadre du SYBIT Coding Camp 2025 ",
+    "text2": "par de jeunes talents qui ont fait leurs premiers pas dans le développement professionnel de logiciels avec curiosité, discipline et créativité.Notre objectif n'était pas seulement d'écrire du code, mais de créer quelque chose d'utile, qui fonctionne, qui soit utile et qui rende nos idées visibles.",
+    "text3": "Nous tenons à remercier tout particulièrement tous les participants qui ont travaillé sur ce projet avec passion, esprit d'équipe et persévérance. Chaque composant, chaque ligne de code et chaque décision prise derrière reflète le processus d'apprentissage et l'engagement de tous les participants.",
+    "patrticptants": "Participant(e)s",
+    "patrticptantslist": "Kaan Gel, Luisa Karsniqi, Sebastian Keller, Tomash Fedak, Leonard Röpcke, Jamal Blank, Adriano Mestre et Sasha (Oleksandr) Pavchak",
+    "coaches": "Coachs de SYBIT",
+    "coacheslist": "Felix Klein, Max Eichelmann, Yannik Deschler, Yannik Schwarz, Max Buhl, Elias Frank, Noel Wölfle et Stephan Strittmatter",
+    "headline": "👨‍💻 Nos développeurs",
+    "altpicture": "Photo de groupe de tous les participants au Coding Camp",
+    "coding-camp-text": "Depuis 2015, le SYBIT Coding Camp a lieu chaque année pendant la première semaine complète des vacances d'été dans le cadre du programme de vacances de la ville de Radolfzell. De nombreux anciens participants font aujourd'hui partie intégrante de l'entreprise et se rendent régulièrement au Coding Camp pour s'inspirer et suivre les projets en cours.",
+    "sybit": "SYBIT est le premier prestataire européen de services complets dans le domaine de l'expérience client (CX) et dispose d'une expertise approfondie en matière de conseil aux entreprises, de conseil en processus et de conseil en solutions. En tant que partenaire stratégique, SYBIT accompagne les entreprises dans la conception de processus centrés sur le client et dans la mise en œuvre de solutions innovantes tout au long du parcours client. Fort de plus de 25 ans d'expérience et membre de NTT Data Business Solutions, SYBIT contribue durablement à la transformation numérique. Nous créons des champions de l'expérience client !",
+    "coding-camp-title": "Le SYBIT Coding Camp – Une réussite exemplaire"
+  },
+  "FAVORITES": {
+    "TITLE": "Mes Favoris",
+    "LOADING": "Chargement des favoris...",
+    "EMPTY": {
+      "TITLE": "Vous n'avez pas encore enregistré de favoris.",
+      "DESCRIPTION": "Ajoutez des événements à vos favoris pour les voir ici.",
+      "BUTTON": "Aller à l'aperçu"
+    },
+    "REMOVE": "Retirer des favoris",
+    "ADD": "Ajouter aux favoris",
+    "LOCAL_STORAGE_NOTICE": "Remarque: Les favoris sont uniquement stockés localement sur cet appareil."
+  },
+  "event-card": {
+    "show-more": "Afficher plus d'événements"
+  },
+  "event-detail": {
+    "skip-to-content": "Aller au contenu de l'événement",
+    "no-image": "Aucune image disponible",
+    "when": "Quand ?",
+    "where": "Où ?",
+    "costs": "Prix",
+    "free": "gratuit",
+    "organizer": "Organisateur",
+    "description": "Description",
+    "arrival": "Arrivée",
+    "adress": "Adresse",
+    "eventlocation": "Lieu de l'événement",
+    "contact": "Coordonnées",
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "back": "Retour",
+    "edit": "Modifier",
+    "tags": {
+      "description-heading": "description-heading",
+      "directions-heading": "directions-heading",
+      "contact-heading": "contact-heading"
+    }
+  },
+  "login": {
+    "username": "Nom d'utilisateur / E-mail",
+    "password": "Mot de passe",
+    "login": "Connexion"
+  },
+  "upload-image": {
+    "image-here": "Glisser l'image ici"
+  },
+  "SHARE": {
+    "SHARE": "Partager..."
+  },
+  "share": {
+    "copy-notification": "Le lien a été copié dans le presse-papiers."
+  },
+  "ADMIN": {
+    "EVENTS": {
+      "TITLE": "Administration",
+      "SEARCH": "Recherche ...",
+      "CREATE_NEW": "Créer un nouveau ...",
+      "NO_EVENTS": "Aucun événement trouvé",
+      "DELETE": "Supprimer",
+      "EDIT": "Modifier ..."
+    }
+  }
+}
